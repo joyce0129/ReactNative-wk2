@@ -1,125 +1,131 @@
-import React from "react";
-import { StyleSheet,Text,View,Image,ScrollView } from "react-native";
+import React from 'react';
+import { StyleSheet, Text, View, Image,ScrollView } from 'react-native';
+import albumData from './albums.json';
 
 
-const Albumlist =()=>{
-    return(
-        <ScrollView>
-            <View style={styles.cardContainerStyle}>
-                <View style={[styles.thumbnailContainerStyle,styles.cardSectionStyle]}>
-                    <Image 
-                    style={styles.thumbnailStyle}
-                    source={{ 
-                        uri:'https://i.pinimg.com/originals/f4/2e/f9/f42ef9cd5053d38a2a011ba7f7a2206c.png'
-                }}/>
-                <View style={styles.headerContentStyle}>
-                    <Text>Lauv</Text>
-                    <Text>~How I'am Feeling~</Text>
-                </View>
-                </View>
-                <View style={styles.cardSectionStyle}>
-                    <Image 
-                    style={styles.imageStyle}
-                    source={{
-                        uri:
-                        "https://i.pinimg.com/originals/a6/1a/c5/a61ac59efd73ff5b8705dd666c97cefa.jpg"
-                    }}/>
-                </View>
+const Albumlist = () => {
+    return (
+      <ScrollView>
+        <View style={styles.cardContainerStyle}>
+          <View style={[styles.thumbnailContainerStyle, styles.cardSectionStyle]}>
+            <Image
+              style={styles.thumbnailStyle}
+              source={{
+                uri: albumData.albumList[0].thumbnail_image
+              }}
+            />
+            <View style={styles.headerContentStyle}>
+              <Text>{albumData.albumList[0].title}</Text>
+              <Text>{albumData.albumList[0].artist}</Text>
             </View>
+          </View>
+          <View style={styles.cardSectionStyle}>
+            <Image
+              style={styles.imageStyle}
+              source={{
+                uri: albumData.albumList[0].image
+              }}
+            />
+          </View>
+        </View>
 
-
-            <View style={styles.cardContainerStyle}>
-                <View style={[styles.thumbnailContainerStyle,styles.cardSectionStyle]}>
-                    <Image style={styles.thumbnailStyle}
-                    source={{ uri:'https://i.pinimg.com/originals/f4/2e/f9/f42ef9cd5053d38a2a011ba7f7a2206c.png'
-                }}/>
-                <View style={styles.headerContentStyle}>
-                    <Text>Lauv</Text>
-                    <Text>I met you when I was 18.</Text>
-                </View>
-                </View>
-                <View style={styles.cardSectionStyle}>
-                    <Image style={styles.imageStyle}
-                    source={{
-                        uri:
-                        "https://i.pinimg.com/originals/40/16/22/40162247dcfd906c8e01d9296702ada7.jpg"
-                    }}/>
-                </View>
+        <View style={styles.cardContainerStyle}>
+          <View style={[styles.thumbnailContainerStyle, styles.cardSectionStyle]}>
+            <Image
+              style={styles.thumbnailStyle}
+              source={{
+                uri: albumData.albumList[1].thumbnail_image
+              }}
+            />
+            <View style={styles.headerContentStyle}>
+              <Text>{albumData.albumList[1].title}</Text>
+              <Text>{albumData.albumList[1].artist}</Text>
             </View>
+          </View>
+          <View style={styles.cardSectionStyle}>
+            <Image
+              style={styles.imageStyle}
+              source={{
+                uri: albumData.albumList[1].image
+              }}
+            />
+          </View>
+        </View>
 
-            <View style={styles.cardContainerStyle}>
-                <View style={[styles.thumbnailContainerStyle,styles.cardSectionStyle]}>
-                    <Image style={styles.thumbnailStyle}
-                    source={{ 
-                        uri:'https://i.pinimg.com/originals/f4/2e/f9/f42ef9cd5053d38a2a011ba7f7a2206c.png'
-                }}/>
-                <View style={styles.headerContentStyle}>
-                    <Text>Lauv</Text>
-                    <Text>All 4 Nothing</Text>
-                </View>
-                </View>
-                <View style={styles.cardSectionStyle}>
-                    <Image style={styles.imageStyle}
-                    source={{
-                        uri:
-                        "https://i.pinimg.com/originals/8f/d2/02/8fd202f4a768123211194ddb8111e923.jpg"
-                    }}/>
-                </View>
+        <View style={styles.cardContainerStyle}>
+          <View style={[styles.thumbnailContainerStyle, styles.cardSectionStyle]}>
+            <Image
+              style={styles.thumbnailStyle}
+              source={{
+                uri: albumData.albumList[2].thumbnail_image
+              }}
+            />
+            <View style={styles.headerContentStyle}>
+              <Text>{albumData.albumList[2].title}</Text>
+              <Text>{albumData.albumList[2].artist}</Text>
             </View>
+          </View>
+          <View style={styles.cardSectionStyle}>
+            <Image
+              style={styles.imageStyle}
+              source={{
+                uri: albumData.albumList[2].image
+              }}
+            />
+          </View>
+        </View>
 
-
-            <View style={styles.cardContainerStyle}>
-                <View style={[styles.thumbnailContainerStyle,styles.cardSectionStyle]}>
-                    <Image style={styles.thumbnailStyle}
-                    source={{ 
-                        uri:'https://i.pinimg.com/originals/f4/2e/f9/f42ef9cd5053d38a2a011ba7f7a2206c.png'
-                }}/>
-                <View style={styles.headerContentStyle}>
-                    <Text>Lauv</Text>
-                    <Text>I'am so tired.</Text>
-                </View>
-                </View>
-                <View style={styles.cardSectionStyle}>
-                    <Image style={styles.imageStyle}
-                    source={{
-                        uri:
-                        "https://i.pinimg.com/originals/39/ea/c0/39eac052264205226ebaacee00a44255.jpg"
-                    }}/>
-                </View>
+        <View style={styles.cardContainerStyle}>
+          <View style={[styles.thumbnailContainerStyle, styles.cardSectionStyle]}>
+            <Image
+              style={styles.thumbnailStyle}
+              source={{
+                uri: albumData.albumList[3].thumbnail_image
+              }}
+            />
+            <View style={styles.headerContentStyle}>
+              <Text>{albumData.albumList[3].title}</Text>
+              <Text>{albumData.albumList[3].artist}</Text>
             </View>
+          </View>
+          <View style={styles.cardSectionStyle}>
+            <Image
+              style={styles.imageStyle}
+              source={{
+                uri: albumData.albumList[3].image
+              }}
+            />
+          </View>
+        </View>
 
-
-            <View style={styles.cardContainerStyle}>
-                <View style={[styles.thumbnailContainerStyle,styles.cardSectionStyle]}>
-                    <Image style={styles.thumbnailStyle}
-                    source={{ 
-                        uri:'https://i.pinimg.com/originals/f4/2e/f9/f42ef9cd5053d38a2a011ba7f7a2206c.png'
-                }}/>
-                <View style={styles.headerContentStyle}>
-                    <Text>Lauv</Text>
-                    <Text>26</Text>
-                </View>
-                </View>
-                <View style={styles.cardSectionStyle}>
-                    <Image style={styles.imageStyle}
-                    source={{
-                        uri:
-                        "https://i.pinimg.com/originals/d8/f9/0b/d8f90b98e620604e6e9f42e0f4e987dd.jpg"
-                    }}/>
-                </View>
+        <View style={styles.cardContainerStyle}>
+          <View style={[styles.thumbnailContainerStyle, styles.cardSectionStyle]}>
+            <Image
+              style={styles.thumbnailStyle}
+              source={{
+                uri: albumData.albumList[4].thumbnail_image
+              }}
+            />
+            <View style={styles.headerContentStyle}>
+              <Text>{albumData.albumList[4].title}</Text>
+              <Text>{albumData.albumList[4].artist}</Text>
             </View>
+          </View>
+          <View style={styles.cardSectionStyle}>
+            <Image
+              style={styles.imageStyle}
+              source={{
+                uri: albumData.albumList[4].image
+              }}
+            />
+          </View>
+        </View>
 
-        </ScrollView>
-
+      </ScrollView>
     );
-}
-
-
-
-
-
-
-const styles = StyleSheet.create({
+  };
+  
+  const styles = StyleSheet.create({
     thumbnailContainerStyle: {
       flexDirection: "row",
       justifyContent: "flex-start"
