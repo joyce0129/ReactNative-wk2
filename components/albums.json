@@ -1,0 +1,38 @@
+{
+    "albumTitle":"Lauv",
+    "albumList":[{
+    "title": "Mean It",
+    "artist": "Lauv",
+    "url": "https://www.youtube.com/watch?v=c_10qS7amjk",
+    "image": "https://i.pinimg.com/originals/a6/1a/c5/a61ac59efd73ff5b8705dd666c97cefa.jpg",
+    "thumbnail_image": "https://i.pinimg.com/originals/f4/2e/f9/f42ef9cd5053d38a2a011ba7f7a2206c.png"
+ },
+ {
+    "title": "I Like Me Better",
+    "artist": "Lauv",
+    "url": "https://www.youtube.com/watch?v=BcqxLCWn-CE",
+    "image": "https://i.pinimg.com/originals/40/16/22/40162247dcfd906c8e01d9296702ada7.jpg",
+    "thumbnail_image": "https://i.pinimg.com/originals/f4/2e/f9/f42ef9cd5053d38a2a011ba7f7a2206c.png"
+ },
+ {
+    "title": "All 4 Nothing",
+    "artist": "Lauv",
+    "url": "https://www.youtube.com/watch?v=AH8b7EynJ60",
+    "image": "https://i.pinimg.com/originals/8f/d2/02/8fd202f4a768123211194ddb8111e923.jpg",
+    "thumbnail_image": "https://i.pinimg.com/originals/f4/2e/f9/f42ef9cd5053d38a2a011ba7f7a2206c.png"
+ },
+ {
+    "title": "I'm So Tired",
+    "artist": "Lauv",
+    "url": "https://www.youtube.com/watch?v=fvjpE_wFL5A",
+    "image": "https://i.pinimg.com/originals/39/ea/c0/39eac052264205226ebaacee00a44255.jpg",
+    "thumbnail_image": "https://i.pinimg.com/originals/f4/2e/f9/f42ef9cd5053d38a2a011ba7f7a2206c.png"
+ },
+ {
+    "title": "26",
+    "artist": "Lauv",
+    "url": "https://www.youtube.com/watch?v=FHtQrPX_JpY",
+    "image": "https://i.pinimg.com/originals/d8/f9/0b/d8f90b98e620604e6e9f42e0f4e987dd.jpg",
+    "thumbnail_image": "https://i.pinimg.com/originals/f4/2e/f9/f42ef9cd5053d38a2a011ba7f7a2206c.png"
+ }
+]}
